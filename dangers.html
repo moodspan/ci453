@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/stylesheet.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Rubik&family=Rubik+Glitch&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+		<title>Dangers and Risks</title> <!--title of webpage-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        
+        
+        <header class="banner"> <!--"banner attributes defined in css"-->
+            <h1>Cyber Security</h1>
+        </header>
+        <div id="wrapper">
+
+        
+        <ul class = "navbar">
+            <li><a href="frontpage.html">Home</a></li>
+            <li><a class="active">Privacy Issues & Threats</a></li>
+            <li><a href="resolutions.html">Security Mechanisms</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+        </ul>
+
+        
+        <aside id="glossary">
+            <h3><u>Glossary</u></h3>
+                <li><strong>Malware</strong> - malicious software intended to harm a computer system </li>
+                <br><li><br></li>
+                <li><strong>Virus</strong> - a type of malware designed to spread between computer systems</li>
+                <br><li><br></li>
+                <li><strong>Antivirus</strong> - detects and neutralises threats in a computer system</li>
+                <br><li><br></li>
+                <li><strong>Firewall</strong> - controls the flow of traffic in a network</li>
+                <br><li><br></li>
+                <li><strong>Authentication</strong> - veryfying a given user's or device's identity</li>
+                <br><li><br></li>
+                <li><strong>Authorisation</strong> - providing authenticated users with necessary permissions</li>
+                <br><li><br></li>
+                <li><strong>IDS</strong> - Intrusion Detection System, detects malicious activity in a system and notifies an administrator</li>
+                <br><li><br></li>
+                <li><strong>FTP</strong> - File Transfer Protocol, set of rules regarding transferring files between systems</li>
+                <br><li><br></li>
+                <li><strong>2SV</strong> - Two-Step Verification, requiring two proofs identity from the user for extra security</li>
+                <br><li><br></li>
+                <li><strong>2FA</strong> - Two-factor Authentication, requiring two <u>distinct</u> proofs of identity from the user for extra security</li>
+        </aside>
+
+        <aside id="weblinks">
+            <p><br></p>
+            <img src="images/security.jpg" alt="security">
+            <a href="https://www.ncsc.gov.uk/">Learn more on the NCSC website</a>
+            <p><br></p>
+            <img src="images/bestantivirus.jpg" alt="bestantivirus">
+            <a href="https://www.techradar.com/uk/best/best-antivirus">Choose the best antivirus</a>
+            <p><br></p>
+            <img src="images/getinvolved.jpg" alt="getinvolved">
+            <a href="https://www.ncsc.gov.uk/cyberfirst/overview">Get involved in CyberSecurity</a>
+            
+        </aside>
+
+
+        <main>
+            <article class="intro">
+                
+                <h2>Privacy in business information systems</h2>
+                <p>Businesses have changed many aspects of how they operate due to the introduction of network technologies, which allow 
+                    them to frequently share data and store it throughout connected networks. This has made businesses work a lot more 
+                    efficiently, but there are some downsides to this, such as:</p>
+            </article>
+            <article class="short">
+                <h3>Data theft/manipulation</h3>
+                <p> The altering or theft of private information is essentially fraudulent cyber activity, usually done with malicious 
+                    intent. The user doesn’t straight away steal the data, they alter and modify it to damage the organization.
+                </p>
+            </article>
+            <article class="short">
+                <h3>Computer viruses</h3>
+                <p> A business' operation can be easily disrupted by malware, as the malicious code can give attackers access to all 
+                    files and programs and are even the ability to reformat the computer itself, erasing everything, possibly causing a 
+                    hard crash of the system completely. Viruses are mostly used by hackers who have malicious intent to either steal or
+                    destroy private data.
+                </p>
+            </article>
+            <article class="short">
+                <h3>Computer fraud</h3>
+                <p> Computer fraud can be a great threat to a business. This is an act of using a computer to steal/alter data or to 
+                    gain access, without authorisation, to a computer system. Under the Computer Misuse Act 1990 it is an offence to
+                    use a computer to perform functions with the intent to access unauthorized programs or data that is held within a 
+                    computer.
+                </p>
+            </article>
+            <article class="intro">
+                <h2>Security controls for mitigating privacy threats</h2>
+                <p>
+                    Due to the various potential privacy threats, many laws have been put in place in order to hold people accountable
+                    for their malicious actions. However, due to the damage often caused by these attacks, it is best to try to prevent 
+                    them from happening in the first place. Some of the techniques used include:
+                </p>
+            </article>
+            <article>
+                <h2>Securing internet connections</h2>
+                <img class="right" src="images/connection.jpg" alt="connection">
+                <p>Internet connections can never be completely safe. They should be secured using different mechanisms, e.g., audit logs, 
+                    firewalls etc. Another way to protect internet connections is by equipping the internet router with packet filters to 
+                    control the flow of outgoing and incoming packets. Backing up these filters with a firewall tends to strengthen the 
+                    security of the connection by stopping any suspicious data that comes through. Monitoring the connection also makes 
+                    for good security, seeing what data goes through. This can be achieved by using Host and Network IDS (Intrusion 
+                    Detection System) devices. These devices can monitor different devices and servers to detect and identify an 
+                    intrusion of malware within the network.</p>
+            </article>
+            <article>
+                <h2>Securing public servers</h2>
+                <img class="right" src="images/server.jpg" alt = "server">
+                <p>Companies require the use of public servers that can be accessed via the Internet. For these servers to be safe from 
+                    other networks, a demilitarized zone network (DMZ) should be placed. This adds an extra layer of protection, however 
+                    the administrators themselves also play a role in protecting the server. For administrators to secure their businesses servers, 
+                    they require up to date operating systems and applications, which should be able to deal with any intrusion. Likewise, scripts 
+                    should be checked thoroughly just in case a security leak should happen. Overall, a businesses public server should be equipped 
+                    with the latest firewall software, which can also be configured to protect itself from DoS attacks (Denial of Service attack).</p>
+            </article>
+        </main>
+
+
+
+        </div>
+    <footer> 
+        &copy; Max Lewandowski, 2022
+    </footer>
+</body>
